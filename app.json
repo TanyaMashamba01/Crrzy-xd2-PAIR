@@ -1,0 +1,22 @@
+{
+    "name": "𝙲𝚛𝚊𝚣𝚢-𝚡-𝚟𝟸 𝚜𝚎𝚜𝚜𝚒𝚘𝚗",
+    "description": "a session generator for 𝙲𝚛𝚊𝚣𝚢--𝚟𝟸 whatsapp gaming and ai chatbots t",
+    "logo": "https://i.postimg.cc/4NdSqms8/MidKing.jpg",
+    "repository": "https://github.com/JoshKingmd/CRAZY-X",
+    "keywords": ["𝙱𝙾𝚈𝙺𝙰-𝚇𝙳 𝙱𝙾𝚃"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "This site is only for session generating",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
